@@ -58,7 +58,7 @@ Lista todos os usuários cadastrados no sistema (simulados em memória).
 [
   {
     "id": 1,
-    "nome": "Lucca",
+    "name": "Lucca",
     "cpf": "123.456.789-00",
     "email": "lucca@email.com"
   }
