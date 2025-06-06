@@ -134,13 +134,13 @@ Content-Type: application/json
       "product": {
         "id": 3,
         "name": "Case iPhone",
-        "price": 80.0,
+        "price": 80.00,
         "stockQuantity": 29
       },
       "quantity": 1
     }
   ],
-  "total": 6080.0
+  "total": 5080.00
 }
 ```
 
@@ -162,7 +162,7 @@ Lista todas as vendas realizadas até o momento.
       "email": "lucca@email.com"
     },
     "items": [...],
-    "total": 6080.0
+    "total": 5080.00
   }
 ]
 ```
