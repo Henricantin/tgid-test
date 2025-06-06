@@ -14,8 +14,8 @@ public class StoreService {
     private List<Sale> sales = new ArrayList<>();
 
     public StoreService() {
-        users.add(new User(1L, "João Silva", "123.456.789-00", "joao@email.com"));
-        users.add(new User(2L, "Maria Souza", "987.654.321-00", "maria@email.com"));
+        users.add(new User(1L, "Lucca", "123.456.789-00", "lucca@email.com"));
+        users.add(new User(2L, "Andre", "987.654.321-00", "andre@email.com"));
 
         products.add(new Product(1L, "Notebook", 3000.00, 10));
         products.add(new Product(2L, "Teclado", 150.00, 20));
