@@ -17,9 +17,9 @@ public class StoreService {
         users.add(new User(1L, "Lucca", "123.456.789-00", "lucca@email.com"));
         users.add(new User(2L, "Andre", "987.654.321-00", "andre@email.com"));
 
-        products.add(new Product(1L, "Notebook", 3000.00, 10));
-        products.add(new Product(2L, "Teclado", 150.00, 20));
-        products.add(new Product(3L, "Mouse", 80.00, 30));
+        products.add(new Product(1L, "AirPod", 2500.00, 10));
+        products.add(new Product(2L, "Carregador USB-C", 150.00, 20));
+        products.add(new Product(3L, "Case iPhone", 80.00, 30));
     }
 
     public List<Product> listProducts() {
