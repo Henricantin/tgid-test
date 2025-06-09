@@ -10,9 +10,9 @@ import java.util.List;
 public class Sale {
     private Long Id;
     private User usuario;
-    private List<SaleItem> itens;
+    private List<SaleItem> items;
 
     public double getTotal() {
-        return itens.stream().mapToDouble(SaleItem::getSubtotal).sum();
+        return items.stream().mapToDouble(SaleItem::getSubtotal).sum();
     }
 }
